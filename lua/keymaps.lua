@@ -1,0 +1,5 @@
+vim.api.nvim_set_keymap('n', '<C-f>', ':Files<CR>', {noremap = true})
+vim.api.nvim_set_keymap('i', 'jk', '<Esc>', {noremap = true})
+vim.api.nvim_set_keymap('n', ';', ':', {noremap = true})
+vim.api.nvim_set_keymap('t', 'jk', '<C-\\><C-n>', {noremap = true})
+vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', {noremap = true})
